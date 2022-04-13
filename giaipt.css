@@ -1,0 +1,56 @@
+*{
+    text-align: center;
+    font-size: 25px;
+
+}
+body{
+    background-color: aliceblue;
+}
+.container{
+    width: 550px;
+    margin-top:20px;
+    display: inline-block;
+    background-color: rgb(186, 13, 13);
+    /* padding: 0px 30px 30px 30px; */
+    border-radius: 10px;
+}
+#pt{
+    color:aqua;
+    padding:5;
+}
+h2{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+    color:blueviolet
+}
+
+p>input{
+    outline: none;
+    padding:8px;
+    border-radius: 4px;
+    background-color: antiquewhite;
+    color:blue
+}
+button{
+    padding:10px 11px;
+    margin-left:35px;
+    font-weight: 600;
+}
+.giai{
+    background-color: gray;
+}
+.so{
+    background-color: darkcyan;
+}
+#kq{
+    height: 200px;
+    border:1px solid gray;
+    border-radius: 3px;
+    width: 80%;
+    margin: 20px auto;
+}
+#ngaygio{
+    font-style: italic;
+    color:yellow;
+    padding-bottom: 20px;
+}

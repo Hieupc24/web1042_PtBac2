@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ps21889-giai phương trình</title>
+    <link rel="stylesheet" href="giaipt.css">
+    <script src="giaipt.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h2>GIẢI PHƯƠNG TRÌNH BẬC 2</h2>
+        <h3> <span id="pt"></span></h3>
+        <span>Số lần giải: <b id="solangiai">1</b></span>
+        <form>
+            <p><label>Nhập a: </label><input type="text" id="a" autocomplete="off" onchange="nhapso()"></p>
+            <p><label>Nhập b: </label><input type="text" id="b" autocomplete="off" onchange="nhapso()"></p>
+            <p><label>Nhập c: </label><input type="text" id="c" autocomplete="off" onchange="nhapso()"></p>
+            <button type="button" id="btngiai" class="giai" disabled onclick="gptb2(); dem()">GIẢI PT</button>
+            <button type="button" id="btnchoso" class="so" onclick="choso()">CHO SỐ</button>
+        </form>
+        <div id="kq"></div>
+        <div id="ngaygio"></div>
+    </div>
+</body>
+</html>
